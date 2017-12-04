@@ -68,8 +68,8 @@ namespace WebApplication2.Controllers
                     db.Users.Add(user);
                     db.SaveChanges();
 
-                    var fromAddress = "mshahnawaz9935@gmail.com";
-                    // any address where the email will be sent
+                    var fromAddress = "xyz@gmail.com";
+                    // any address from where the email will be sent
                     var toAddress = user.email;
                     //Password of your gmail address
                     const string fromPassword = "password";
